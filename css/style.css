@@ -69,8 +69,8 @@ body {
 
 @media only screen and (max-width: 320px) {
 
-    .navbar .navbar-brand {
-        margin-left: 10px;
+    .navbar .navbar-brand{
+        margin-left:10px;
     }
 
 }
@@ -237,7 +237,7 @@ body {
     }
 
     .caption a {
-        display: block;
+        display:block;
         text-align: center;
         margin-top: 10px;
         background-color: #ff5629;
@@ -486,41 +486,39 @@ body {
 / */
 
 /* dashboard CSS */
-html,
-body {
-    margin: 0;
+html,body {
+	margin: 0;
 }
 
 
 a {
-    display: inline-block;
-    text-decoration: none;
+	display: inline-block;
+	text-decoration: none;
 }
-
 a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 
 
 div.dashboard {
-    background-color: #30404f;
-    padding-bottom: 60px;
-
+	background-color:#30404f;
+	padding-bottom: 60px;
+	
 }
 
 
 div.main_container {
-    width: 85%;
-    margin: 0 auto;
+	width: 85%;
+	margin: 0 auto;
 }
 
 
 
 nav.navbar {
-    width: 100%;
-    position: fixed;
-    z-index: 9999;
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
 }
 
 
@@ -584,9 +582,9 @@ nav.navbar {
 
 
 div.float_right {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
 }
 
 
@@ -704,169 +702,64 @@ div.float_right {
 
 
 div.dashboard_head {
-    padding-top: 60px;
-    background-color: #3F4B5B;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-
+	padding-top: 60px;
+	background-color:#3F4B5B;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	
 }
 
 div.dashboard_head div.main_head {
-    width: 100%;
+	width: 100%;
 
 }
 
 div.main_heading {
-    text-align: center;
-    padding-top: 60px;
+	text-align: center;
+	padding-top: 60px;
 }
-
 div.main_heading h1 {
-    font-size: 52px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #ffffff;
+	font-size: 52px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #ffffff;
 }
 
 div.main_paragraph {
-    text-align: center;
+	text-align: center;
 }
-
 div.main_paragraph p {
-    font-size: 21px;
-    text-align: center;
-    color: #ffffff;
-    padding: 20px 30px;
+	font-size: 21px;
+	text-align: center;
+	color: #ffffff;
+	padding: 20px 30px;
 }
 
 div.get_started {
-    text-align: center;
-    padding-bottom: 40px;
-
+	text-align: center;
+	padding-bottom: 40px;
+	
 }
 
 
 div.get_started a {
-    font-size: 20px;
-    text-align: center;
-    padding: 12px 50px;
-    border-radius: 20px;
-    text-transform: capitalize;
-    color: white;
-    transition: all .2s linear;
-    background-color: #2a313c;
-    font-weight: bold;
-    position: relative;
+	font-size: 20px;
+	text-align: center;
+	padding: 12px 50px;
+	border-radius: 20px;
+	text-transform: capitalize;
+	color: white;
+	transition: all .2s linear;
+	background-color: #2a313c;
+	font-weight: bold;
+	position: relative;
 
 
 }
 
 
 div.get_started a:hover {
-    color: transparent;
-    text-shadow: 0px -2px 0px #ff5629;
+	color: transparent;
+	text-shadow: 0px -2px 0px #ff5629;
 }
 
 
-
-
-
-
-div.dashboard div.title {
-    padding: 30px 0px;
-}
-
-div.dashboard div.title h3 {
-    color: #ffffff;
-    font-size: 32px;
-    padding-left: 10px;
-}
-
-
-div.box {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-div.box div.box1 {
-    width: calc(100% / 4 - 20px);
-    margin: 10px;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
-    position: relative;
-    transform: translateY(0px);
-    transition: transform .2s linear;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: white;
-    margin-top: 20px;
-}
-
-
-div.box div.box1:hover {
-    transform: translateY(-10px);
-}
-
-
-
-div.box1 div.column_box {
-    width: 100%;
-    height: 180px;
-    overflow: hidden;
-    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
-}
-
-div.column_box img {
-    width: 100%;
-    height: auto;
-    min-height: 100%;
-    transition: all .2s linear;
-
-}
-
-div.column_box img:hover {
-    opacity: .8;
-}
-
-div.column_box div.text {
-    padding: 10px 15px;
-
-}
-
-div.text h3 {
-    color: #30404f;
-    font-size: 28px;
-    text-transform: capitalize;
-}
-
-div.text p {
-    color: #30404f;
-    font-size: 16px;
-
-}
-
-
-div.link_bio {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-div.link_bio a {
-    color: white;
-    font-size: 14px;
-    padding: 6px 40px;
-    box-shadow: 0px 0px 2px #fccebd;
-    text-transform: capitalize;
-    transition: all .2s linear;
-    background-color: #2a313c;
-    border-radius: 20px;
-
-
-
-}
-
-div.link_bio a:hover {
-    color: transparent;
-    text-shadow: 0px -2px 0px #ff5629;
-}
