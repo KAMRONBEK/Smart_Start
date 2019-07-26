@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Proxima Nova, proxima-nova, Helvetica, Arial, sans-serif;
+    background-color: #D3D3D3;
 }
 
 .container {
@@ -67,8 +68,11 @@ body {
     color: #ff5629;
 }
 
-@media(max-width: 320px) {
+@media only screen and (max-width: 320px) {
 
+    .navbar .navbar-brand {
+        margin-left: 10px;
+    }
 
 }
 
@@ -217,13 +221,43 @@ body {
     /* transition: 0.5s ease-out; */
 }
 
-@media only screen and (max-width: 414px) {}
+@media only screen and (max-width: 414px) {
+
+    .caption h1 {
+        font-weight: 600;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .caption p {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+
+    .caption a {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        background-color: #ff5629;
+        color: #fff;
+        transition: 0.5s ease-in-out;
+        padding: 15px 20px;
+        font-weight: 600;
+        font-size: 1.25rem;
+        width: auto;
+        border-radius: 10px;
+    }
+
+}
 
 /* section */
 
 
 .bg-brown {
-    background-color: #F6F4F0;
+    background-color: #D3D3D3;
     box-sizing: content-box;
 }
 
@@ -261,10 +295,8 @@ body {
 }
 
 .blogs img {
-    height: auto;
-    width: 100%;
-    max-width: 576px;
-    min-width: 210px;
+    height: 200px;
+    width: auto;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -273,6 +305,7 @@ body {
     padding-top: 40px;
     font-weight: 800;
     font-size: 30px;
+    color: #fccebd;
 }
 
 .blogs h6 {
@@ -329,7 +362,7 @@ body {
 
 .bg-lighter {
     margin-top: 50px;
-    background-color: #2a313c;
+    background-color: #D3D3D3;
 }
 
 
@@ -386,16 +419,16 @@ body {
 
 /* subscribe */
 
-.submit {
+.submit-btn {
     border-radius: 4px;
     padding: 10px 25px;
-    background-color: #F89D3B;
-    color: #4f5661;
-    height: 50px;
+    background-color: #ff5629;
+    color: white !important;
 }
 
-.submit:hover {
+.submit-btn:hover {
     background-color: #fccebd;
+    color: #2a313c !important;
 }
 
 .contacts-wrapper {
@@ -408,6 +441,14 @@ body {
 .contacts {
     width: 85%;
     margin: auto;
+}
+
+.contacts .text-center ul li i {
+    color: #ff5629;
+}
+
+.contacts .text-center ul li:hover i {
+    color: #fccebd;
 }
 
 .footer {
@@ -915,38 +956,6 @@ div.link_bio a:hover {
 
 
 @media(max-width: 576px) {
-    
-    .navbar .navbar-brand {
-        margin-left: 10px;
-    }
-
-    .caption h1 {
-        font-weight: 600;
-        text-align: center;
-        font-size: 24px;
-    }
-
-    .caption p {
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 40px;
-        font-weight: 200;
-        font-size: 1.2rem;
-    }
-
-    .caption a {
-        display: block;
-        text-align: center;
-        margin-top: 10px;
-        background-color: #ff5629;
-        color: #fff;
-        transition: 0.5s ease-in-out;
-        padding: 15px 20px;
-        font-weight: 600;
-        font-size: 1.25rem;
-        width: auto;
-        border-radius: 10px;
-    }
 
     div.main_container {
         width: 95%;
@@ -1173,40 +1182,29 @@ div.user_page {}
             width: 95%;
         }
     }
+
 }
 
-/* 
-  
-  /
 
 
-  //
-  /
-  /
-  /
-  /
-  /
-  /
-  /
-  /
-  /
-  /
 
-  //
 
-  //
-  /
-  /
-  /
-  /
-  /
-  /
-  /
 
-  /
-  submit form
-  */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form */
 .wrapper {
     /*background-color: #2a313c;*/
 }
